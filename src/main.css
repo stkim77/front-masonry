@@ -1,0 +1,52 @@
+#ScrollPage {
+    display: flex;
+    border: 1px solid;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.lane {
+    width: 100%;
+    min-width: 100px;
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.empty_area {
+    min-height: 10px;
+    flex-grow: 1;
+    background-color: gray;
+}
+
+.image_board {
+    border: 1px solid;
+    margin: 10px;
+}
+
+.image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.like_status {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.like_count {
+    flex-grow: 1;
+    font-size: 12px;
+}
+
+.btn {
+    padding: 0;
+    margin-right: 3px;
+    font-size: 10px;
+}
+
+.pre_image {
+    height: 50px;
+background: #cccccc;
+}
